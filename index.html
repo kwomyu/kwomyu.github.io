@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+      overflow: hidden;
+    }
+
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+
+    header p {
+      font-size: 1.2em;
+      opacity: 0.95;
+    }
+
+    section {
+      padding: 40px 50px;
+      border-bottom: 1px solid #eee;
+    }
+
+    section:last-of-type {
+      border-bottom: none;
+    }
+
+    h2 {
+      color: #667eea;
+      font-size: 1.8em;
+      margin-bottom: 20px;
+      position: relative;
+      padding-bottom: 10px;
+    }
+
+    h2::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 50px;
+      height: 3px;
+      background: #764ba2;
+    }
+
+    #about p {
+      font-size: 1.1em;
+      color: #555;
+      line-height: 1.8;
+    }
+
+    #projects ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    #projects li {
+      background: #f8f9fa;
+      padding: 20px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      border-left: 4px solid #667eea;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    #projects li:hover {
+      transform: translateX(5px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    #projects strong {
+      color: #333;
+      font-size: 1.1em;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    a {
+      color: #667eea;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #764ba2;
+      text-decoration: underline;
+    }
+
+    #contact p {
+      margin-bottom: 10px;
+      font-size: 1.05em;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      section {
+        padding: 30px 25px;
+      }
+
+      h2 {
+        font-size: 1.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Eliab Kwomyu Kwamtam</h1>
+      <p>AI & Systems Student | Aspiring Researcher</p>
+    </header>
+    
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm a second-year AI student passionate about machine learning, automation, and building useful tools.</p>
+    </section>
+    
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <strong>Handwritten Digit Recognition</strong>
+          ML model trained on MNIST dataset for digit classification.
+          <a href="#">View on GitHub →</a>
+        </li>
+        <li>
+          <strong>AI Fairness Demo</strong>
+          Bias detection and mitigation in machine learning models.
+          <a href="#">View on GitHub →</a>
+        </li>
+        <li>
+          <strong>Chatroom App</strong>
+          Real-time chat application using Python sockets.
+          <a href="#">View on GitHub →</a>
+        </li>
+      </ul>
+    </section>
+    
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>📧 Email: <a href="mailto:ELIABKWOMYUKWAMTAM.240112275@gehu.ac.in">ELIABKWOMYUKWAMTAM.240112275@gehu.ac.in</a></p>
+      <p>💻 GitHub: <a href="https://github.com/kwomyu" target="_blank">github.com/kwomyu</a></p>
+      <p>💼 LinkedIn: <a href="https://linkedin.com/in/eliab-kwamtam-69a064296" target="_blank">linkedin.com/in/eliab-kwamtam-69a064296</a></p>
+    </section>
+    
+    <footer>
+      © 2025 Kwomyu. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
